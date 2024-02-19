@@ -2,7 +2,7 @@ import { ColorModeContext, useMode } from './theme';
 import { Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 import Header from './components/Header';
-import Dashboard from './scenes/dashboard';
+// import Dashboard from './scenes/dashboard';
 import Sidebar from './components/Sidebar';
 // import Attendance from './scenes/attendance';
 
@@ -18,7 +18,7 @@ function App() {
           <main className='content'>
             <Header />
             <Routes>
-              <Route path='/' element={<Dashboard />} />
+              {/* <Route path='/' element={<Dashboard />} /> */}
               {/* <Route path='/attendance' element={<Attendance />} /> */}
 
               <Route />
